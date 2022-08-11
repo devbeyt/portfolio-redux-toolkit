@@ -1,7 +1,7 @@
-
+import linksReducer from './../features/components/nav/navigationSlice'
 
 const rootReducer = {
-    //   count:counterReducer,
+     links:linksReducer,
 }
 
 
