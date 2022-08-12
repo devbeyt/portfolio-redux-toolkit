@@ -10,10 +10,11 @@
 
 :root 
 {
-  --background: #171717;
+  --background: #03011f;;
   --primary:#3700b3;
   --secondary: rgba(252, 41, 74, 1.0);
 	--shades: rgba(238, 238, 238, 1.0);
+  --lightblue: #6cacc5;
 }
 body{
   background:var(--background);

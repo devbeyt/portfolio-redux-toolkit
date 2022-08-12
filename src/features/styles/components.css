@@ -2,10 +2,11 @@
 
 .navbar {
 	padding: .5em;
-	background-color: var(--primary);
-	-webkit-box-shadow: 0 14px 14px -14px rgba(0, 0, 0, .75);
+	background-color: var(--background);
+	/* -webkit-box-shadow: 0 14px 14px -14px rgba(0, 0, 0, .75);
 	-moz-box-shadow: 0 14px 14px -14px rgba(0, 0, 0, .75);
-	box-shadow: 0 14px 14px -14px rgba(0, 0, 0, .75);
+	box-shadow: 0 14px 14px -14px rgba(0, 0, 0, .75); */
+	border-bottom: 0.5px solid var(--lightblue);
 }
 
 .sticky {
