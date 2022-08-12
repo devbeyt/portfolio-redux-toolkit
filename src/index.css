@@ -20,6 +20,7 @@ body{
   background:var(--background);
   font-family: 'Raleway', sans-serif;
   width: 100%;
+  color: #fff;
 }
 .dashboard
 {

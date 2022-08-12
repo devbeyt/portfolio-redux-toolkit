@@ -1,14 +1,15 @@
 import React from 'react'
 import Footer from '../components/footer/Footer'
 import Navigation from '../components/nav/Navigation'
-import View from '../components/view/View'
-import Routers from '../routers/Routers'
+import Sections from '../sections/Sections'
+import View from './../components/view/View'
+
 
 function Dashboard() {
   return (<div className='dashboard'>
         <Navigation/>
         <View/>
-        <Routers/>
+        <Sections/>
         <Footer/>
     </div>
   )
