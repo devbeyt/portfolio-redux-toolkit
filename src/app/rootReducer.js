@@ -1,4 +1,4 @@
-import linksReducer from './../features/components/nav/navigationSlice'
+import linksReducer from './../features/components/aside/navigationSlice'
 
 const rootReducer = {
      links:linksReducer,

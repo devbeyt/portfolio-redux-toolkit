@@ -1,14 +1,11 @@
 import React from 'react'
-import Footer from '../components/footer/Footer'
-import Navigation from '../components/nav/Navigation'
+import Aside from '../components/aside/Aside'
 import Routers from './../routers/Routers'
-
 
 function Dashboard() {
   return (<div className='dashboard'>
-        <Navigation/>
+        <Aside/>
         <Routers/>
-        <Footer/>
     </div>
   )
 }

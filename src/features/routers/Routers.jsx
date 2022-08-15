@@ -5,6 +5,7 @@ import About from './../components/about/About'
 import Projects from './../components/projects/Projects'
 import Skills from './../components/skills/Skills'
 import Contact from './../components/contact/Contact'
+import NotFound from './../components/notFound/NotFound'
 
 function Routers() {
   return (<Routes>
@@ -13,6 +14,7 @@ function Routers() {
     <Route path="/projects" element={<Projects/>}/>
     <Route path="/skills" element={<Skills/>}/>
     <Route path="/contact" element={<Contact/>}/>  
+    <Route path="*" element={<NotFound/>}/>
   </Routes>
   )
 }

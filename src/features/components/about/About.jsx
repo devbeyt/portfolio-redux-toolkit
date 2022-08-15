@@ -1,7 +1,7 @@
 import React from 'react'
 
 function About() {
-  return (<section className='about'>
+  return (<section className='about container'>
 About
   </section>
   )

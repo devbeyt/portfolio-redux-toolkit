@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
+
 
 *
 {
@@ -16,6 +18,13 @@
   --secondary: rgba(252, 41, 74, 1.0);
 	--shades: rgba(238, 238, 238, 1.0);
   --lightblue: #6cacc5;
+  --bg-dark: #171717;
+  --bg-light: #fff;
+  --font-medium:500;
+  --font-bold:600;
+  --text-color:#fff;
+  --box-color: dodgerblue;
+  --skin-color: deeppink;
 }
 body{
   background:var(--background);
@@ -23,10 +32,10 @@ body{
   width: 100%;
   color: #fff;
 }
+
 .dashboard
 {
-  text-align: center;
-  font-size: 35px;
+  display: flex;
 }
 
 .container

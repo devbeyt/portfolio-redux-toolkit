@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../styles/components.css'
+import './view.css'
 
 function View() {
     return (<section class="view container">
