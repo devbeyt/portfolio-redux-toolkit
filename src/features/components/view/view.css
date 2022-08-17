@@ -106,7 +106,12 @@
 		justify-content: center;
 		align-items: center;
 	}
-
+  .view_static_txt,
+  .view_dynamic_txt
+  {
+    font-size: 30px;
+  }
+ 
 	
 
 }
